@@ -1,0 +1,55 @@
+{
+    "title": "Responsive Foundation Framework",
+    "version": "1.00",
+    "doctype": "HTML5", /* HTML5, XHTML1_STRICT, XHTML1_TRANSITIONAL, XHTML1_FRAMESET, HTML4_STRICT, HTML4_TRANSITIONAL, HTML4_FRAMESET  */
+    "thumbnail": "_thumbnail.png",
+    "author": "ImpressPages",
+    "widget": { /* Image cropping settings for widgets. Require theme reinstall to take effect. */
+        "image": {
+            "width": 540,
+            "height": 342
+        },
+        "imageGallery": {
+            "width": 160,
+            "height": 100
+        }
+    },
+    "options": [
+        {
+            "label": "Top Bar",
+            "type": "group",
+            "options": [
+                {
+                    "label": "Background Color",
+                    "name": "top_bar_bg_color",
+                    "type": "color",
+                    "default": "#333"
+                },
+                {
+                    "label": "Link Active Background Color",
+                    "name": "top_bar_link_bg_active_color",
+                    "type": "color",
+                    "default": "#008cba"
+                },
+                {
+                    "label": "Link Active Color",
+                    "name": "top_bar_link_active_color",
+                    "type": "color",
+                    "default": "#fff"
+                },
+                {
+                    "label": "$topbar-dropdown-bg",
+                    "name": "topbar_dropdown_bg",
+                    "type": "color",
+                    "default": "red"
+                },
+                {
+                    "label": "$topbar-link-color",
+                    "name": "topbar_link_color",
+                    "type": "color",
+                    "default": "red"
+                }
+            ]
+        }
+    ]
+}

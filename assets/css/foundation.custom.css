@@ -1,0 +1,6 @@
+.reveal-modal-bg {
+	z-index: 1050 !important;
+}
+.reveal-modal {
+	z-index: 1051 !important;
+}
